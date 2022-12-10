@@ -251,7 +251,7 @@ else:
 try:
     USER_SESSION_STRING = environ.get('USER_SESSION_STRING', '')
     if len(USER_SESSION_STRING) != 0:
-        premium_session = Client('WZML-Premium', api_id=TELEGRAM_API, api_hash=TELEGRAM_HASH, session_string=USER_SESSION_STRING, parse_mode=enums.ParseMode.HTML, no_updates=True)
+        premium_session = Client('MirBot-Premium', api_id=TELEGRAM_API, api_hash=TELEGRAM_HASH, session_string=USER_SESSION_STRING, parse_mode=enums.ParseMode.HTML, no_updates=True)
     if not premium_session:
         LOGGER.error("Cannot initialized User Session. Please regenerate USER_SESSION_STRING")
     else:
@@ -532,23 +532,23 @@ else:
 
 AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
 if len(AUTHOR_NAME) == 0:
-    AUTHOR_NAME = 'WZML'
+    AUTHOR_NAME = '°｡• 𝗣𝗛𝗢𝗘𝗡𝗜𝗫 •｡°'
 
 AUTHOR_URL = environ.get('AUTHOR_URL', '')
 if len(AUTHOR_URL) == 0:
-    AUTHOR_URL = 'https://t.me/WeebZone_updates'
+    AUTHOR_URL = 'https://t.me/Crazy_Phoenix'
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
-    TITLE_NAME = 'WeebZone'
+    TITLE_NAME = '【𝗔𝗠𝗗】🅻🅸🅽🅺🆉🆉'
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
-    GD_INFO = 'Uploaded by WeebZone Mirror Bot'
+    GD_INFO = 'Uploaded by 【𝗔𝗠𝗗】🅻🅸🅽🅺🆉🆉 Mirror Bot'
 
 CREDIT_NAME = environ.get('CREDIT_NAME', '')
 if len(CREDIT_NAME) == 0:
-    CREDIT_NAME = 'WeebZone'
+    CREDIT_NAME = '°｡• 𝗣𝗛𝗢𝗘𝗡𝗜𝗫 •｡°'
 
 NAME_FONT = environ.get('NAME_FONT', '')
 if len(NAME_FONT) == 0:
