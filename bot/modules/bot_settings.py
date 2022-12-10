@@ -355,7 +355,7 @@ def load_config():
 
     UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
     if len(UPSTREAM_REPO) == 0: 
-        UPSTREAM_REPO = 'https://github.com/weebzone/WZML'
+        UPSTREAM_REPO = 'https://github.com/beast06king/MirBot'
 
     UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
     if len(UPSTREAM_BRANCH) == 0:   
@@ -363,7 +363,7 @@ def load_config():
 
     UPDATE_PACKAGES = environ.get('UPDATE_PACKAGES', '')
     if len(UPDATE_PACKAGES) == 0:
-        UPDATE_PACKAGES = 'False'
+        UPDATE_PACKAGES = 'True'
 
     MIRROR_ENABLED = environ.get('MIRROR_ENABLED', '')
     MIRROR_ENABLED = MIRROR_ENABLED.lower() == 'true'
