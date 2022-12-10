@@ -251,7 +251,7 @@ else:
 try:
     USER_SESSION_STRING = environ.get('USER_SESSION_STRING', '')
     if len(USER_SESSION_STRING) != 0:
-        premium_session = Client('MirBot-Premium', api_id=TELEGRAM_API, api_hash=TELEGRAM_HASH, session_string=USER_SESSION_STRING, parse_mode=enums.ParseMode.HTML, no_updates=True)
+        premium_session = Client('WZML-Premium', api_id=TELEGRAM_API, api_hash=TELEGRAM_HASH, session_string=USER_SESSION_STRING, parse_mode=enums.ParseMode.HTML, no_updates=True)
     if not premium_session:
         LOGGER.error("Cannot initialized User Session. Please regenerate USER_SESSION_STRING")
     else:
@@ -532,15 +532,15 @@ else:
 
 AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
 if len(AUTHOR_NAME) == 0:
-    AUTHOR_NAME = '°｡• 𝗣𝗛𝗢𝗘𝗡𝗜𝗫 •｡°'
+    AUTHOR_NAME = 'WZML'
 
 AUTHOR_URL = environ.get('AUTHOR_URL', '')
 if len(AUTHOR_URL) == 0:
-    AUTHOR_URL = 'https://t.me/Crazy_Phoenix'
+    AUTHOR_URL = 'https://t.me/crazy_phoenix'
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
-    TITLE_NAME = '【𝗔𝗠𝗗】🅻🅸🅽🅺🆉🆉'
+    TITLE_NAME = '°｡• 𝗣𝗛𝗢𝗘𝗡𝗜𝗫 •｡°'
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
@@ -548,7 +548,7 @@ if len(GD_INFO) == 0:
 
 CREDIT_NAME = environ.get('CREDIT_NAME', '')
 if len(CREDIT_NAME) == 0:
-    CREDIT_NAME = '°｡• 𝗣𝗛𝗢𝗘𝗡𝗜𝗫 •｡°'
+    CREDIT_NAME = 'WeebZone'
 
 NAME_FONT = environ.get('NAME_FONT', '')
 if len(NAME_FONT) == 0:
@@ -631,7 +631,7 @@ if len(BASE_URL) == 0:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-   UPSTREAM_REPO = 'https://github.com/beast06king/MirBot'
+   UPSTREAM_REPO = 'https://github.com/weebzone/WZML'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
