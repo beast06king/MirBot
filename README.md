@@ -1,7 +1,7 @@
 <p align="center">
-    <a href="https://github.com/beast06king/MirBot">
+    <a href="https://github.com/weebzone/WZML">
         <kbd>
-            <img width="250" src="https://te.legra.ph/file/125af5a897b84f7269e48.jpg" alt="【𝗔𝗠𝗗】🅻🅸🅽🅺🆉🆉 Logo">
+            <img width="250" src="https://telegra.ph/file/496644cbabaeb916e3616.png" alt="WeebZone Logo">
         </kbd>
     </a>
 </p>
@@ -9,8 +9,8 @@
 <p align="center">
 <div align=center>
 
-[![GitHub forks](https://img.shields.io/github/forks/beast06king/Bot?style=social)](https://github.com/beast06king/MirBot/fork)
-[![GitHub followers](https://img.shields.io/github/followers/beast06king?style=social&label=beast06king%20Followers)](https://github.com/beast06king)
+[![GitHub forks](https://img.shields.io/github/forks/weebzone/WZML?style=social)](https://github.com/weebzone/WZML/fork)
+[![GitHub followers](https://img.shields.io/github/followers/weebzone?style=social&label=weebzone%20Followers)](https://github.com/weebzone)
 
 ----
 
@@ -23,14 +23,14 @@
 
 ----
 
-## ***【𝗔𝗠𝗗】🅻🅸🅽🅺🆉🆉  MLTB***
+## ***WeebZone MLTB***
 
 <div align=center>
 
 ℹ️ A Powerful Pyrogram Based Telegram Mirror Leech Bot Modded by Codewithweeb to directly Mirror to Google Drive or Leech to Telegram, with Multi Direct Links Support for Enhanced Mirroring & Leeching.|
 ---|
     
-### ***Source Code*** : [Repo](https://github.com/beast06king/MirBot)
+### ***Source Code*** : [Repo](https://github.com/weebzone/WZML)
 
 #### Note: `If you Like My Work, Give Stars ⭐ to the Repo and Follow Me on Github`
     
